@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
+
+:root{
+    --primary:  hsl(4, 100%, 67%);
+    --neutralDarkGray: hsl(234, 29%, 20%);
+    --neutralCharcoalGrey: hsl(235, 18%, 26%);
+    --neutralGray:hsl(231, 7%, 60%);
+    --neutralWhite: hsl(0, 0%, 100%);
+}
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--neutralCharcoalGrey);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+}
+
+main{
+    flex: 1;
+    padding: 0 0.6rem;
+}
+
+.wrapper{
+    background: #fff;
+}
+
+.main__content{
+    padding: 3rem 1rem;
+    max-width: 100%;
+}
+
+.main__content h1{
+    margin-bottom: 2rem;
+}
+
+.main__content ul{
+    margin-top: 1rem;
+}
+
+.main__content li{
+    list-style-image: url(images/icon-list.svg);
+    list-style-position: inside;
+    margin-bottom: 0.8rem;
+}
+
+form{
+    padding: 1.5rem 0;
+}
+form div{
+    margin: 0.2rem 0;
+}
+
+input,
+button{
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+}
+
+input{
+    border: 1px solid;
+    margin-bottom: 1rem;
+}
+
+button{
+    color: var(--neutralWhite);
+    background-color: var(--neutralDarkGray);
+}
+
+button:hover{
+    background: linear-gradient(to right, hsl(4, 100%, 67%), #FF9048);
+    cursor: pointer;
+}
+
+form div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.validEmail {
+    display: none;
+    color: var(--primary);
+}
+
+.confirmed__message{
+    background-color: var(--neutralWhite);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.confirmed__message{
+    display: none;
+}
+
+
+.message{
+    margin: 1rem;
+}
+
+.message p{
+    color: var(--neutralGray);
+}
+
+span {
+    color: var(--neutralDarkGray);
+}
+
+.message img{
+    max-width: 20%;
+}
+
+.message h2 {
+    font-size: 3em;
+    padding: 2rem 0;
+}
+
+.dismiss-btn {
+    margin-top: 15rem;
+}
+
+
+img{
+    width: 100%;
+}
+
+.attribution { 
+    font-size: 12px; 
+    text-align: center; 
+    padding: 2rem;
+}
+.attribution a { 
+    color: var(--primary); 
+}
+
+@media screen and (min-width: 500px){
+    .confirmed__message{
+        display: none;
+        background-color: var(--neutralDarkGray);
+    }
+    .message {
+        padding: 1.5rem;
+        text-align: center;
+        background-color: white;
+        max-width: 400px;
+        border-radius: 10px;
+    }
+
+    .dismiss-btn {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 760px){
+    body {
+        max-width: 900px;
+        margin: auto;
+        padding: 0 1rem;
+    }
+
+    .wrapper{
+        display: flex;
+        align-items: center;
+        padding: 1em;
+        border-radius: 20px;
+    }
+
+    .images {
+        order: 2;
+    }
+
+}
+
+

@@ -1,17 +1,25 @@
 
-# Frontend Mentor - huddle-landing-page-with-single-introductory-section-master
+# Frontend Mentor - Newsletter-sign-up-with-success-Message
 ## Overview
 
 ### Screenshot
-![](./images/Screenshot%202023-08-12%20at%2013-42-56%20Frontend%20Mentor%20Huddle%20landing%20page%20with%20single%20introductory%20section.png)
+![](images/Screenshot%202023-08-27%20at%2012-58-55%20Frontend%20Mentor%20Newsletter%20sign-up%20form%20with%20success%20message.png)
+
+![](images/Screenshot%202023-08-27%20at%2012-59-26%20Frontend%20Mentor%20Newsletter%20sign-up%20form%20with%20success%20message.png)
+
+![](images/Screenshot%202023-08-27%20at%2013-00-07%20Frontend%20Mentor%20Newsletter%20sign-up%20form%20with%20success%20message.png)
+
+![](images/Screenshot%202023-08-27%20at%2017-36-58%20Frontend%20Mentor%20Newsletter%20sign-up%20form%20with%20success%20message.png)
 
 
 ### Links
 
-- Solution URL: [solution URL here](https://github.com/iamcelestino/newsletter-sign-up-with-success-message-main.git)
-- Live Site URL: [live site URL here]( https://iamcelestino.github.io/newsletter-sign-up-with-success-message-main/)
+- Solution URL: [solution URL here](https://github.com/iamcelestino/Newsletter-sign-up-with-sucess-Message.git)
+- Live Site URL: [live site URL here]( https://iamcelestino.github.io/Newsletter-sign-up-with-sucess-Message/ )
 
 ## My process
+
+- this challenge was difficult.
 
 ### Built with
 
@@ -20,16 +28,6 @@
 - Flexbox
 - Mobile-first workflow
 
-### What I learned
-
-```html
-```
-```
-
- 
-
-
-```
 
 ### Continued development
 -Responsive design
